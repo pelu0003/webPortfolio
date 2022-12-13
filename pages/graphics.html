@@ -17,8 +17,12 @@
 
   </head>
   <body>
-    <header class="container-fluid bg-secondary" role="heading">
-      <nav class="navbar navbar-expand-md container-lg" role="navigation">
+    <ul class="skip-links">
+      <li><a href="#nav">Skip to main nav</a></li>
+      <li><a href="#main">Skip to main content</a></li>
+    </ul>
+    <header class="container-fluid bg-secondary" role="heading" id="top">
+      <nav class="navbar navbar-expand-md container-lg" role="navigation" id="nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/logo.svg" alt="portfolio logo"></a>
           <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +42,114 @@
       </nav>
 
     </header>
+    <div class="container-fluid bg-primary pt-2">
+      <div class="container-lg" id="main" role="main">
+        <h1 class="text-secondary mt-2" role="heading">Graphic Design</h1>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h2 class="text-secondary">Unspoken</h2>
+            <p class="text-secondary">
+              This is a poster for an idea for a science fiction movie. It was the final for the all digital graphics course in Algonquin College. 
+            </p>
+
+          </div>
+          <div class="col-md-6">
+            <picture>
+              <source srcset="../images/desktop/unspoken_simple.jpg,
+              ../images/desktop/unspoken_double.jpg 2x"
+              media="(min-width:768px)"
+              >
+              <source srcset="../images/mobile/unspoken_simple.jpg,
+              ../images/mobile/unspoken_double.jpg 2x"
+              media="(min-width:100px)"
+              >
+              <img src="../images/mobile/unspoken_double.jpg" alt="Unspoken terror movie poster" class="img-fluid">
+            </picture>
+
+          </div>
+
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-12">
+            <h2 class="text-secondary">Photography Cleaning</h2>
+            <p class="text-secondary">
+              This is a photo cleaning I did in Photoshop to transform a messy photograph into a clean one 
+            </p>
+
+            
+          </div>
+          <div class="col-md-6 pb-4">
+            <picture>
+              <source srcset="../images/desktop/photo_clean_1_simple.jpg,
+              ../images/desktop/photo_clean_1_double.jpg 2x"
+              media="(min-width:768px)"
+              >
+              <source srcset="../images/mobile/photo_clean_1_simple.jpg,
+              ../images/mobile/photo_clean_1_double.jpg 2x"
+              media="(min-width:100px)"
+              >
+              <img src="../images/mobile/photo_clean__1_double.jpg" alt="image of a destroyed house" class="img-fluid">
+            </picture>
+
+          </div>
+          <div class="col-md-6 pb-4">
+             <picture>
+              <source srcset="../images/desktop/photo_clean_2_simple.jpg,
+             ../images/desktop/photo_clean_2_double.jpg 2x"
+              media="(min-width:768px)"
+              >
+              <source srcset="../images/mobile/photo_clean_2_simple.jpg,
+              ../images/mobile/photo_clean_2_double.jpg 2x"
+              media="(min-width:100px)"
+             >
+             <img src="../images/mobile/photo_clean_2_double.jpg" alt="image of a restored house" class="img-fluid">
+            </picture>
+          </div>
+          
+        </div>
+
+        <div class="row">
+          <h2 class="text-secondary">Conceptual Design </h2>
+            <p class="text-secondary">
+              This is a conceptual design that alludes to fear, depression and loneliness 
+            </p>
+            <div class="text-center">
+              <picture>
+              
+                <source srcset="../images/desktop/concept_simple.jpg,
+                ../images/desktop/concept_double.jpg 2x"
+                media="(min-width:768px)"
+                >
+                <source srcset="../images/mobile/concept_simple.jpg,
+                 ../images/mobile/concept_double.jpg 2x"
+                media="(min-width:100px)"
+                >
+                <img src="../images/mobile/concept_double.jpg" alt="a man is falling into the darkness to a snake mouth" class="img-fluid pb-4">
+              </picture>
+          </div>
+            
+        </div>
+
+      </div>
+
+    </div>
+    <footer class="container-fluid bg-secondary p-4">
+      <div class="container-lg row">
+        <div class="col-md-2 footerText1 text-primary">
+          &copy; Nicolas Peluso 2022
+        </div>
+        <div class="col-md-2 footerText2">
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-peluso-16177a25a/" class="text-decoration-none" target="_blank">LinkedIn</a>
+        </div>
+        <div class="space col-md-8">
+
+        </div>
+
+      </div>
+      <a href="#top" class="backToTop text-decoration-none">Back to Top</a>
+    </footer>
+
 
     <!--Adds bootstrap Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

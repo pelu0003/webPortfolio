@@ -76,7 +76,7 @@ h1{
 h2{
     font-weight:bold;
     font-size: 1.2rem;
-    padding-top: 2rem;
+    
 }
 .profilePicture{
     width: fit-content;
@@ -187,5 +187,9 @@ iframe{
     
     .footerText2{
         text-align: left;
+    }
+    .adBox{
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
   }
